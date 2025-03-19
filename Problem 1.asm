@@ -74,7 +74,6 @@ sub:
 	mov esi, eax
 	call printf
 	jmp end
-
 add:
 	mul ebx
 	mov rdi, fmtpadd
